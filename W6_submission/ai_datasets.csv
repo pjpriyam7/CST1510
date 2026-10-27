@@ -1,0 +1,7 @@
+   dataset,rows_loaded,rows_expected
+   survey_2026,1187,1200
+   sales_data,950,1000
+   customer_logs,5230,5000
+   sensor_readings,3100,4000
+   image_set,2000,2000
+   text_corpus,450,1000

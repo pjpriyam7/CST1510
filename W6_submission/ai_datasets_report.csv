@@ -1,0 +1,7 @@
+   dataset,rows_loaded,rows_expected,percent,status
+   survey_2026,1187,1200,98.91666666666666,WARNING
+   sales_data,950,1000,95.0,WARNING
+   customer_logs,5230,5000,104.60000000000001,OVER LIMIT
+   sensor_readings,3100,4000,77.5,OK
+   image_set,2000,2000,100.0,OVER LIMIT
+   text_corpus,450,1000,45.0,OK
