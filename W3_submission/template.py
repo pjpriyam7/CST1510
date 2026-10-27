@@ -27,11 +27,11 @@ def status_of(percent):
 #    difference and the percentage as two values - do not print anything
 #    inside it, only calculate and return.
 
-def check(value,limit):
+def check(rows_loaded,rows_expected):
     """Return missing rows and percentage loaded"""
-    difference= limit-value
-    percent= (value/limit)*100
-    return difference,percent
+    missing_rows= rows_expected-rows_loaded
+    percent= (rows_loaded/rows_expected)*100
+    return missing_rows,percent
 
 #    Excellent: also write print_report(label, value, limit, difference,
 #    percent, status) that does ALL of the printing below - nothing outside
