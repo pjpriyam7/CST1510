@@ -62,7 +62,7 @@ def load_records(path):
 
 # ===== STORE =====
 try:
-    records = load_records("Week 04 - Lists, Dictionaries and Files\LAB\datasets.txt")
+    records = load_records("datasets.txt")
 
 except FileNotFoundError:
     print("File not found:","datasets.txt") 
