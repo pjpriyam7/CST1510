@@ -44,7 +44,7 @@ def load_records(path):
     
 # ======OUTPUT======
 # 3. Print a report for each record.
-records= load_records("Week 05 - Classes and Objects/LAB/record1_sample.txt")
+records= load_records("record1_sample.txt")
 over_limit_count =0
 for record in records:    # Calculate the status for record
     status = record.status()
